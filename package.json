@@ -13,12 +13,15 @@
     "test": "cross-env NODE_ENV=test node --experimental-vm-modules node_modules/jest/bin/jest.js --verbose --runInBand"
   },
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "lodash.isequal": "^4.5.0",
     "lodash.uniqwith": "^4.5.0",
     "mongoose": "^7.0.3",
+    "mongoose-unique-validator": "^4.0.0",
     "supertest": "^6.3.3"
   },
   "devDependencies": {
